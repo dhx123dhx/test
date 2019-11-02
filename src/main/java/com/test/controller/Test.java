@@ -12,6 +12,6 @@ public class Test {
 
     @RequestMapping(value = "test", method = RequestMethod.GET)
     public String test() {
-        return "success";
+        return "Success";
     }
 }
